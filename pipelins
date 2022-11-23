@@ -1,0 +1,16 @@
+pipeline
+{
+  agent by stages
+  {
+    stage("compile validate")
+    {
+      steps
+    {
+       echo "compile validate"
+     }
+    }
+  }
+ }
+    
+     
+     
